@@ -1,3 +1,13 @@
+import { GlobalStyles } from "./styles/GlobalStyles";
+import { Header } from './components/Header';
+import { Orders } from "./components/Orders";
+
 export function App(){
-  return <h1>Hello</h1>;
+  return (
+    <>
+      <GlobalStyles />
+      <Header />
+      <Orders />
+    </>
+  )
 }
